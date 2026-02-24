@@ -21,7 +21,7 @@ choice=input("You're at a cross road.where do you want to go?\n  Type 'left' or 
 if choice=="left":
     p=input("You have come to lake.There is an island in the middle of the lake.\n  Type 'wait' to wait for a boat. Type 'swim' to swim accross ").lower()
     if p=="wait":
-        c=input("You arrive at the island unharmed. There is a how with 3 doors. \n One red,one yellow and one blue.Which colour do you choose:").lower()
+        c=input("You arrive at the island unharmed. There is a house with 3 doors. \n One red,one yellow and one blue.Which colour do you choose:").lower()
         if c=="red":
             print("Game over!!!")
         elif c=="yellow":
